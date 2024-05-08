@@ -12,10 +12,13 @@ app.use(cors()); // Använd cors för att tillåta alla domäner
 // Inkludera routes
 const authRoutes = require("./routes/authRoutes"); // Användare
 const menuRoutes = require("./routes/menuRoutes"); // Meny
+const reviewRoutes = require("./routes/reviewRoutes"); // Recensioner
 
 // Exporterade routes
 app.use("/api", authRoutes); // Användare
 app.use("/api/meals", menuRoutes); // Meny
+app.use("/api/reviews", reviewRoutes); // Recensioner
+
 
 // Anslut till MongoDB
 mongoose.set("strictQuery", false);
