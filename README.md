@@ -1,4 +1,4 @@
-# DT207G - Backend-baserad webbutveckling, Moment 5 Projektuppgift
+# DT207G - Backend-baserad webbutveckling, Moment 5.1 Projektuppgift
 
 Detta repository innehåller kod för en webbtjänst som är byggd med NodeJs och Express. 
 Webbtjänsten hanterar menyn, recensioner och skapande av nya användarkonton. Data lagras i 
